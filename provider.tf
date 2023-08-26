@@ -1,5 +1,6 @@
 # use local docker as provider
 
-provider "docker" {
-  host = "unix:///var/run/docker.sock"
+provider "aws" {
+  region = var.aws_region
+
 }
